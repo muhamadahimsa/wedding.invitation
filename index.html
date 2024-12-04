@@ -2772,7 +2772,7 @@
                             data-aos-delay="400"
                             data-aos-anchor-placement="bottom-bottom"
                           >
-                            Kafe Jahe Rempah Pudjasera
+                            Cafe Jahe Rempah Pudjasera
                           </p>
                           <p
                             class="event-address"
@@ -2992,10 +2992,7 @@
                     href="./images/1.jpeg"
                     target="_blank"
                   >
-                    <img
-                      src="./images/1.jpeg"
-                      alt="ali&dian.jpg"
-                    />
+                    <img src="./images/1.jpeg" alt="ali&dian.jpg" />
                   </a>
                   <a
                     data-aos="zoom-in"
@@ -3003,10 +3000,7 @@
                     href="./images/2.jpeg"
                     target="_blank"
                   >
-                    <img
-                      src="./images/2.jpeg"
-                      alt="ali&dian.jpg"
-                    />
+                    <img src="./images/2.jpeg" alt="ali&dian.jpg" />
                   </a>
                   <a
                     data-aos="zoom-in"
@@ -3014,10 +3008,7 @@
                     href="./images/6.jpeg"
                     target="_blank"
                   >
-                    <img
-                      src="./images/6.jpeg"
-                      alt="ali&dian.jpg"
-                    />
+                    <img src="./images/6.jpeg" alt="ali&dian.jpg" />
                   </a>
                   <a
                     data-aos="zoom-in"
@@ -3025,10 +3016,7 @@
                     href="./images/7.jpeg"
                     target="_blank"
                   >
-                    <img
-                      src="./images/7.jpeg"
-                      alt="ali&dian.jpg"
-                    />
+                    <img src="./images/7.jpeg" alt="ali&dian.jpg" />
                   </a>
                   <a
                     data-aos="zoom-in"
@@ -3036,10 +3024,7 @@
                     href="./images/8.jpeg"
                     target="_blank"
                   >
-                    <img
-                      src="./images/8.jpeg"
-                      alt="ali&dian.jpg"
-                    />
+                    <img src="./images/8.jpeg" alt="ali&dian.jpg" />
                   </a>
                 </div>
                 <div class="aine-photos lightgallery" data-num="3">
@@ -3049,10 +3034,7 @@
                     href="./images/5.jpeg"
                     target="_blank"
                   >
-                    <img
-                      src="./images/5.jpeg"
-                      alt="ali&dian.jpg"
-                    />
+                    <img src="./images/5.jpeg" alt="ali&dian.jpg" />
                   </a>
                   <a
                     data-aos="zoom-in"
@@ -3071,10 +3053,7 @@
                     href="./images/4.jpeg"
                     target="_blank"
                   >
-                    <img
-                      src="./images/4.jpeg"
-                      alt="ali&dian.jpg"
-                    />
+                    <img src="./images/4.jpeg" alt="ali&dian.jpg" />
                   </a>
                 </div>
               </div>
@@ -3125,13 +3104,8 @@
                 <div class="">
                   <div class="story-preview">
                     <div class="story-picture lightgallery">
-                      <a
-                        href="./images/first-meet.jpeg"
-                      >
-                        <img
-                          src="./images/first-meet.jpeg"
-                          alt=""
-                        />
+                      <a href="./images/first-meet.jpeg">
+                        <img src="./images/first-meet.jpeg" alt="" />
                       </a>
                     </div>
                     <h3
@@ -3146,13 +3120,8 @@
                 <div class="">
                   <div class="story-preview">
                     <div class="story-picture lightgallery">
-                      <a
-                        href="./images/we're-together.jpeg"
-                      >
-                        <img
-                          src="./images/we're-together.jpeg"
-                          alt=""
-                        />
+                      <a href="./images/we're-together.jpeg">
+                        <img src="./images/we're-together.jpeg" alt="" />
                       </a>
                     </div>
                     <h3
@@ -3431,7 +3400,9 @@
                               <small class="bank-account-name-label"
                                 >Account Name</small
                               >
-                              <h4 class="bank-account-name">Dian Furqona Rahmawa</h4>
+                              <h4 class="bank-account-name">
+                                Dian Furqona Rahmawa
+                              </h4>
                             </div>
                           </div>
                         </div>
@@ -4268,10 +4239,7 @@
     </section> -->
     <div id="audio-container">
       <audio id="song" loop>
-        <source
-          src="music/Glenn Fredly - Kasih Putih.mp3"
-          type="audio/mp3"
-        />
+        <source src="music/Glenn Fredly - Kasih Putih.mp3" type="audio/mp3" />
       </audio>
 
       <div class="audio-icon-wrapper">
@@ -4384,8 +4352,8 @@
       const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
       let isPlaying = false;
       const song = document.querySelector("#song");
-      const openMusic = document.querySelector('.open-music');
-      audioIcon = document.querySelector('.audio-icon-wrapper i');
+      const openMusic = document.querySelector(".open-music");
+      audioIcon = document.querySelector(".audio-icon-wrapper i");
 
       function playAudio() {
         // song.volume = .1;
@@ -4393,25 +4361,23 @@
         isPlaying = true;
       }
 
-      openMusic.addEventListener('click', () => {
+      openMusic.addEventListener("click", () => {
         playAudio();
-      } )
+      });
 
       audioIconWrapper.onclick = function () {
         if (isPlaying) {
           song.pause();
-           audioIcon.classList.remove('ph-vinyl-record');
-           audioIcon.classList.add('ph-record');
+          audioIcon.classList.remove("ph-vinyl-record");
+          audioIcon.classList.add("ph-record");
         } else {
           song.play();
-           audioIcon.classList.add('ph-vinyl-record');
-           audioIcon.classList.remove('ph-record');
+          audioIcon.classList.add("ph-vinyl-record");
+          audioIcon.classList.remove("ph-record");
         }
 
         isPlaying = !isPlaying;
       };
-
-      
     </script>
   </body>
   <!-- Google Tag Manager (noscript) -->
